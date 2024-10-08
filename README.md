@@ -26,13 +26,14 @@ Ensure you have Python 3 installed on your system.
    python3 -m venv venv
    source venv/bin/activate
    ```
-  Repeat the installation process:
-     ```bash
-     pip install -r requirements.txt
-     python3 main.py
-     ```
+Repeat the installation process:
+   ```bash
+   pip install -r requirements.txt
+   python3 main.py
+   ```
 4. **Configuration**
 # Result file path
 output_dir = '/Simple-Proxy-scraper-checker/'
+
 output_file = os.path.join(output_dir, 'proxy.txt')
 
